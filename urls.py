@@ -18,5 +18,6 @@
 from django.conf.urls.defaults import *
 
 urlpatterns = patterns('',
-    (r'^$', 'views.index')
+    (r'^$', 'views.index'),
+    (r'^main_header', 'views.main_header')
 )
